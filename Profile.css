@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Asset/dry\ tree.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+header{
+    background-color: gainsboro;
+}
+
+h4{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+li{
+    margin-right: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+a:hover{
+    border-bottom: 2px solid brown;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    max-height:fit-content;
+    max-width: fit-content;
+    margin-top: 20rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: gainsboro;
+    border: 2px gainsboro solid;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+img{
+    width: 22rem;
+    height: 18rem;
+    border: solid brown;
+    border-radius: 10px;
+    
+}
+
+h1{
+    font-size: 1.2rem;
+    color:black;
+    padding: 0 1rem;
+    border-bottom: 3px solid;
+   
+}
+
+h1:hover{
+    color: brown;
+    border: 1px solid brown;
+    cursor: pointer;
+
+}
+
+h3{
+    color:black;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+h3:hover{
+    color: brown;
+}
+
+
+
+footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: gainsboro;
+    height: 1vh;
+    width: 1000vw;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    text-align: right;
+}
+
+.foot{
+    font-weight: bold;
+    font-style: oblique;
+}
